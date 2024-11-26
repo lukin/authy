@@ -1,0 +1,23 @@
+# Learn more https://docs.github.com/en/get-started/getting-started-with-git/ignoring-files
+
+# dependencies
+node_modules/
+
+# env
+.env*.local
+
+# next.js
+.next/
+out/
+next-env.d.ts
+
+# macOS
+*.pem
+.DS_Store
+
+## panda
+styled-system/
+styled-system-studio/
+
+# typescript
+*.tsbuildinfo
